@@ -1,0 +1,26 @@
+/*Fichier css qui m'est propre dans lequel je mets
+tout le style qui ne concerne pas le positionnement*/
+
+article {
+    height: 50px;
+}
+
+.red {
+    background-color: white;
+    border-style: double;
+    height: 150px;
+    width: 150px;
+}
+.green {
+    background-color: white;
+    border-style: double;
+    height: 150px;
+    width: 150px;
+}
+
+.blue {
+    background-color: white;
+    border-style: double;
+    height: 150px;
+    width: 150px;
+}

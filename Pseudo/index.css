@@ -1,0 +1,76 @@
+h1{
+    color: red;
+    border: 5px solid red;
+}
+
+h1:hover{
+    color: blue;
+    border: 5px solid blue;
+}
+.carre{
+    width: 100px;
+    height: 100px;
+    background-color: plum;
+}
+.carre:active{
+    background-color: royalblue;
+    width: 200px;
+    height: 200px;
+}
+input:focus{
+    background-color: seagreen;
+    color: white;
+    border-color: tomato;
+}
+
+.range:in-range{
+    background-color: green;
+}
+.range:out-of-range{
+    background-color: red;
+}
+
+.email:valid{
+    background-color: yellow;
+
+}
+.email:invalid{
+    background-color: violet;
+}
+
+.carre1{
+    cursor: wait;
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin:5px;
+}
+.carre2{
+    cursor: zoom-in;
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin:5px;
+}
+
+.carre3{
+    cursor: grabbing;
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin:5px;
+}
+.carre4{
+    cursor: alias;
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin:5px;
+}
+.carre5{
+    cursor: copy;
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin:5px;
+}
